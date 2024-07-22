@@ -1,0 +1,89 @@
+.recipe {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .filter-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .filter-section select,
+  .filter-section input[type="checkbox"],
+  .filter-section button {
+    margin-right: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .details-table {
+    margin-bottom: 20px;
+  }
+  
+  .details-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+  }
+  
+  .details-table th,
+  .details-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .download-btn {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .legends {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .legends h3 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .legend-color {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .legend-color.na {
+    background-color: #e0e0e0;
+  }
+  
+  .legend-color.all-good {
+    background-color: #00e600;
+  }
+  
+  .legend-color.failed {
+    background-color: #ffcc00;
+  }
+  
+  .legend-color.jenkins-broken {
+    background-color: #ff66ff;
+  }
+  
+  .legend-color.broken {
+    background-color: #ff0000;
+  }
+  
+  .legend-color.job-not-run {
+    background-color: #666666;
+  }
+ 

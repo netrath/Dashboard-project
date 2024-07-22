@@ -1,0 +1,35 @@
+.search {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .search button {
+    padding: 10px;
+    cursor: pointer;
+  }
+  .details-table {
+    width: 100%;
+  }
+  
+  .details-table h2 {
+    margin-bottom: 10px;
+  }
+  
+  .details-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .details-table th, .details-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
