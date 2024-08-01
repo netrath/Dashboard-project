@@ -48,6 +48,10 @@
     flex-direction: column;
   }
   
+  .filter-section label {
+    margin-right: 20px; /* Add margin to the right of the label */
+  }
+  
   .filter-section {
     display: flex;
     align-items: center;
