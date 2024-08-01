@@ -19,7 +19,7 @@ const Report = () => {
             <th>CI Links</th>
             <th>Image</th>
             <th>Binary</th>
-            <th>Commitment</th>
+            <th>Comment</th>
             <th>Size</th>
             <th>Owner</th>
           </tr>
