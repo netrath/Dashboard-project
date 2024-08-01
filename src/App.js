@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes , Navigate  } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
 import Overview from './components/Overview';
 import Report from './components/Report';
@@ -13,6 +13,7 @@ function App() {
       <Sidebar />
       <div className="main">
         <Routes>
+        <Route path="/" element={<Navigate to="/Overview" />} />
           <Route path="/Overview" element={<Overview />} />
           <Route path="/report" element={<Report />} />
           <Route path="/recipe" element={<Recipe />} />
